@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+* {
+   
+    margin: 0;
+    
+}
+.my-container{
+    padding: 0px 100px 0px 100px;
+}
+.top-header-nav{
+    padding: 0px 100px 0px 100px;
+    border-bottom: 1px solid #C2D1FF;
+}
+
+.navbar-nav i{
+
+ padding: 7px 10px 0 10px;
+ font-size: 28px;
+ color: #142349;
+ padding-right: 10px;
+ 
+}
+.navbar-nav .nav-item a{
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: #142349;
+    
+
+}
+.navbar-nav .appoinment-btn{
+    background-color: #3366FF;
+    color:white ;
+    border-radius: 40px;
+    padding: 10 30px 10 30px !important;
+    margin: 0 -10px 0 30px;
+}
+
+.appoinment-btn-a {
+    padding: 0 30px 10 30px !important;
+    padding-right: 10px;
+    color:white !important;
+}
+.middle-header-nav{
+    padding: 0px 100px 0px 100px;
+    
+}
+
+.search-container {
+    background-color: #FFF;
+    position: relative;
+    border-radius: 30px;
+    padding: 3px 50px 3px 10px;
+  }
+  .search-box {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 100%;
+  }
+  .search-button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #3366FF;
+    border-radius: 50%;
+    border: 0;
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+  }
+  .middle-header-nav .nav-item{
+    padding-left: 30px;
+  }
+.middle-header-nav .nav-item a{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color:#142349;
+    padding: 0px 20px 0 20px;
+    
+}
+.header-content{
+    background: #EFF6FF;
+}
+.header-content h6{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FF9140;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 100px;
+    font-size: 19px;
+}
+.header-content h1 span{
+    font-family: "Source Serif 4", serif;
+    color: #3366FF;
+    font-weight: 600;
+    font-size: 76px;
+}
+.header-content h1{
+    font-family: "Source Serif 4", serif;
+    color: #142349;
+    font-weight: 600;
+    font-size: 76px;
+}
+.header-content p{
+    color: #142349;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    padding-right:50px ;
+}
+.header-content .contact-btn{
+    color: white;
+    background-color: #3366FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    
+}
+.header-content .vdo-btn{
+    color: #142349;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+.header-content .vdo-btn img{
+    padding: 20px;
+
+
+}
+
+
+.partner h6{
+    color: #FF9140;
+    font-size: 20px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    text-align: center;
+}
+.partner img{
+    padding: 0px 10px 0 10px;
+}
+.about-us h6{
+    color: #FF9140;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.about-us h1{
+    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;;
+
+}
+.about-us h1 span{
+ color: #3366FF;
+}
+.about-us p{
+    color: #142349;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    padding-right: 100px;
+}
+.about-us .check-list i{
+    color: #3366FF;
+    padding-right: 20px;
+}
+.about-us .check-list p{
+    display: inline-block;
+    font-size: 15px;
+    font-family:"DM Sans", sans-serif; 
+    color: #142349;
+    font-weight: 500;
+}
+.about-us a{
+    font-size: 19px;
+    font-family: "Plus Jakarta Sans", sans-serif ;
+    color: #3366FF;
+    font-weight: 500;
+}
+/*counter */
+
+.counter{
+    font-size: 112px;
+    color:#8FE1FA;
+   
+    
+}
+
+
+.counter-sec .wrapper{
+    background-color: #b6dae69c;
+    border-radius: 30px;
+}
+.counter-box{
+ padding: 40px;
+
+}
+.wrapper p{
+    margin-top: -80px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #142349;
+    border-right: 2px solid rgb(102, 98, 98);
+}
+.wrapper .cp{
+    border-right: none;
+}
+
+/*provide section**/
+.provide .wraper{
+    background-color: #EFF6FF;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.provide-header h6{
+    color: #FF9140;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.provide-header h1{
+    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;;
+}
+.provide .box{
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 40px 30px 40px;
+}
+.provide .box h4{
+    color: #142349;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.provide .box p{
+    color: #142349;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.provide .box a{
+    padding-left: 10px;
+    color: #3366FF;
+   
+}
+
+.team-header h1{
+    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;;
+}
+.team-header h6{
+    color: #FF9140;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.team .iteam-box-wrapper{
+    background-color: #FFD600;
+    padding: 20px;
+}
+.team .item-wapper{
+    width:322px ;
+    height: 355px ;
+    padding-top: 20px;
+    background-color: #8FE1FA;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+}
+.team .item-wapper img{
+    z-index: 1;
+}
+.team .card-content{
+    position: absolute;
+    width: 260px;
+    height: 120px;
+    margin-left: 30px !important;
+    border-radius: 10px;
+    background-color: #ffffff !important;
+    z-index: 2;
+    margin-top: -70px;
+}
+.team .card-content h6{
+ font-family:"Plus Jakarta Sans", sans-serif ;   
+ color: #3366FF;
+ font-size: 20px;
+ font-weight: 600;
+}
+.team .card-content p{
+    font-size: 15px;
+    font-family:"DM Sans", sans-serif; 
+    color: #142349;
+
+}
+.card__container{
+    border-radius: 10px;
+}
+.social-icon a{
+    background:rgb(212, 212, 218);
+    padding: 12px 12px; 
+    border-radius: 50%;
+
+}
+.social-icon a i{
+    font-size: 22px;
+}
+.social-icon a:hover{
+    background:rgb(212, 212, 218);
+    padding: 10px 12px; 
+    border-radius: 50%;
+    border:1px solid #3366FF;
+}
+
+.booking .booking-wrapper{
+    background-color: #C7F0FD;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.booking .booking-content h6{
+    font-family:"Plus Jakarta Sans", sans-serif ;   
+    color: #FF9140;
+    font-size: 20px;
+    font-weight: 600;
+}
+.booking .booking-content h1{    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;}
+.booking .booking-content p{
+    font-size: 19px;
+    font-family:"DM Sans", sans-serif; 
+    color: #142349;
+    font-weight: 500;
+}   
+.booking-content article{
+    padding-left: 60px;
+}
+.booking-content article a{
+    color: white;
+    background-color: #3366FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding:12px 30px 12px 40px;
+    border-radius: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.booking-content article a:hover{
+    color: #3366FF;
+    background-color: #ffffff;
+    border: 1px solid #3366FF;
+    transition: 0.6s;
+}
+.booking-img{
+    margin-top: -60px;
+} 
+.booking-content-right{
+    background-image: url("/assets/br.png"); /* The image used */
+  /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+} 
+.blog h6{
+    font-family:"Plus Jakarta Sans", sans-serif ;   
+    color: #FF9140;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog h1{
+    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+}
+.blog .header-title a{
+    color: white;
+    background-color: #3366FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px 25px 5px 25px;
+    border-radius: 31px;
+    margin-right: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 60px;
+    width: 300px;
+}
+.blog .header-title a:hover{
+    color: #3366FF;
+    background-color: #ffffff;
+    border: 1px solid #3366FF;
+    transition: 0.6s;
+}
+.blog h5{
+    color: #ADC2FF;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.blog .article-p{
+    color: #ffffff;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+.left-article-container{
+    background-image: url("/assets/brave-little-boy.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 570px;
+    margin-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: #5475cb;
+    
+    
+}
+
+.left-article-container .overlay{
+    background-color: #45cef764;
+    height: 570px;
+    border-radius: 10px;
+}
+.left-article-container article{
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.blog article{
+    padding-left: 40px;
+    padding-bottom: 35px;
+    
+}
+.blog .a1{
+    background-image: url("/assets/blog-i1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 280px;
+    margin-right: 10px;
+    border-radius: 5px;
+    position: relative;
+  
+    z-index: 2;
+}
+.article-r-conatiner .overlay{
+    background-color: #45cef764;
+    height: 280px;
+    border-radius: 10px;
+}
+.blog .a2{
+    background-image: url("/assets/blog-i2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 280px;
+    margin-right: 10px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: #142349;
+    z-index: 2;
+}
+.article-r-conatiner {
+    position: relative;
+}
+.article-r-conatiner article{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*testetimoinal left site**/
+
+.testimonial{
+    background-color:#EFF6FF;
+    padding: 0px 100px 0px 100px;
+}
+
+.testimonial-header{
+    padding-top: 100px;
+}
+.testimonial-header h5{
+ color: #FF9140;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: "Plus Jakarta Sans", sans-serif;
+}
+.testimonial-header h1{
+    color: #142349;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: "Source Serif 4", serif;
+   }
+.testimonial-left{
+    background-image: url("../assets/left-bg.png");
+    background-repeat: no-repeat, repeat;
+    
+    height: 410px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+    position: relative;
+}
+.m1{
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    
+}
+.m2{
+    position: absolute;
+    top: 88px;
+    right: 53px;
+}
+.m3{
+    position: absolute;
+    bottom: 72px;
+    left: 55px;
+}
+
+/*testetimoinal right site**/
+
+.card-box .card{
+
+    position: relative;
+    border-radius: 15px !important;
+    padding-bottom: 40px !important;
+}
+.card-img-top{
+    position:absolute;
+    width: 95px;
+    height: auto;
+    top: -43px;
+    overflow: hidden;
+    margin-bottom: 20px !important;
+}
+
+
+.testimonial .rating {
+    display: flex;
+    
+    
+}
+
+.testimonial .rating>input {
+    display: none
+}
+
+.testimonial .rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFD600;
+    cursor: pointer
+}
+
+.testimonial .rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.testimonial .rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.testimonial .rating>input:checked~label:before {
+    opacity: 1
+}
+
+.testimonial .rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+
+@media only screen and (max-width: 992px) {
+    .testimonial-left{
+      background-color: rgba(191, 231, 126, 0.37);
+      position: relative;
+      border-radius: 20px;
+    }
+    .m3{
+        position: static;
+       
+
+    }
+    .m1{
+        position: static;
+       
+    }
+    .m2{
+        position: absolute;
+        top: 207px;
+        left: 2px;
+    }
+    
+  }
+
+  footer{
+    background: #C7F0FD;
+  }
+  .footer-header{
+    border-bottom: 2px solid #C2D1FF;
+  }
+  footer .search-container {
+    background-color: #FFF;
+    position: relative;
+    border-radius: 30px;
+    padding: 3px 50px 3px 10px;
+    width: 60%;
+  }
+  footer .search-box {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 30%;
+  }
+footer .search-button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #3366FF;
+    border-radius: 50%;
+    border: 0;
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+  }
+
+  footer .social-icon a{
+    background:rgb(212, 212, 218);
+    padding: 12px 12px; 
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+footer .social-icon a:last-child {
+    margin-right: none !important;
+    
+}
+footer .social-icon a i{
+    font-size: 22px;
+}
+footer .social-icon a:hover{
+    background:rgb(212, 212, 218);
+    padding: 10px 12px; 
+    border-radius: 50%;
+    border:1px solid #3366FF;
+}
+footer .working-time h4{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: #142349;
+}
+footer .working-time .d-flex{
+    border-bottom:1px solid #5C85FF;
+}
+footer .working-time p{
+    color: #3366FF;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    padding-top:5px ;
+}
+.footer-bottom .copy {
+    color: #142349;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+.fotter-link{
+    color: #142349;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__data {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
